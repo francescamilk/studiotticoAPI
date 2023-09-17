@@ -7,7 +7,7 @@ class CreateCarts < ActiveRecord::Migration[7.0]
       t.integer :partita_iva
       t.string  :business_name
       t.string  :address, null: false
-      t.integer :CAP, null: false
+      t.integer :cap, null: false
       t.string  :city, null: false
       t.float   :total_price, null: false
 

@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_17_134251) do
     t.integer "partita_iva"
     t.string "business_name"
     t.string "address", null: false
-    t.integer "CAP", null: false
+    t.integer "cap", null: false
     t.string "city", null: false
     t.float "total_price", null: false
     t.datetime "created_at", null: false
@@ -26,7 +26,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_17_134251) do
   end
 
   create_table "glasses", force: :cascade do |t|
-    t.string "SKU", null: false
+    t.string "sku", null: false
     t.string "name"
     t.string "brand", null: false
     t.float "price", null: false

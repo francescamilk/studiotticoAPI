@@ -1,7 +1,7 @@
 class CreateGlasses < ActiveRecord::Migration[7.0]
   def change
     create_table :glasses do |t|
-      t.string  :SKU, null: false
+      t.string  :sku, null: false
       t.string  :name
       t.string  :brand, null: false
       t.float   :price, null: false
